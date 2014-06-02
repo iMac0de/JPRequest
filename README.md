@@ -19,6 +19,7 @@ In your code, import the JPRequest.h file and use it like it :
   // GET request example
   NSString *replyGET = [JPRequest getRequestWithUrl:@"http://www.example.com"];
 }
+```
 
 How to know if the request is finished ?
 ========================================
