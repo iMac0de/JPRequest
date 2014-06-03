@@ -1,7 +1,7 @@
 JPRequest
 =========
 
-JPRequest is a simple Objective-C object to send and receive POST and GET data from a webservice
+JPRequest is a simple multi-threading Objective-C object to send and receive POST and GET data from a webservice.
 
 How To Use It ?
 ===============
