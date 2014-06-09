@@ -44,7 +44,6 @@
         NSError *error;
         NSURLResponse *response;
         NSData *data;
-        [NSURLConnection connectionWithRequest:request delegate:self];
         data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
         reply = [[NSString alloc] initWithBytes:[data bytes] length:[data length] encoding:NSUTF8StringEncoding];
         
